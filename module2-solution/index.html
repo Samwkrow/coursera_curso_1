@@ -2,38 +2,154 @@
 <html>
 <head>
     <title>Samuel David Melgarejo modulo2</title>
+
+<style>
+*{
+    box-sizing: border-box;
+}
+
+body{
+   font-size: 16px;
+}
+
+.row {
+    width: 100%;
+
+}
+
+p{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* RESPONSIVE LARGE DEVICES */
+
+@media (min-width: 992px){  
+    .col-lg-4 , .col-lg-12{
+        float: left;
+    }
+    .col-lg-4{
+        width: 33%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+
+/* RESPONSIVE MEDIUM DEVICES */
+
+@media (min-width: 768px) and (max-width:991px) {  
+    .col-md-5 , .col-md-12{
+        float: left;
+      
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+
+.tot{
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+
+.tit{
+    /* background-color: chocolate; */
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+
+.secc{
+    /* background-color: blue; */
+    position: relative;
+}
+
+.secc1{
+    /* background-color: blueviolet; */
+    position: relative;
+}
+
+.secc2{
+    /* background-color: crimson; */
+}
+
+.secc3{
+    /* background-color: darkgoldenrod; */
+}
+
+.subt {
+    background-color:chocolate;
+    float: right; 
+    margin: 0%;
+    margin-bottom: 2%;
+    border: 1px solid black;
+    padding: 0.5% 4% 0.5% 4%;
+}  
+.prueba{
+    background-color:dimgray;
+    margin: 0% 2% 0% 2% ;
+    border: 1px solid black;
+}
+.info{
+    clear: right; 
+    position: relative;
+   
+}
+
+
+</style>
 </head>
 
 <body>
-    <div><!-- total  -->
+    <div class="tot"><!-- total  -->
     
-        <div><!-- titulo T  -->
+        <div class="tit"><!-- titulo T  -->
             <h1>
                 Our Menu
             </h1>
         </div>
 
-        <div><!-- Secciones -->
-            <div><!-- Sec1 -->
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quam neque doloribus 
-                    quo maxime earum officiis vel sint. Doloribus minima enim adipisci quod deserunt aspernatur? 
-                    Et illum quas sapiente! Molestias.
-                </p>
+        <div class="secc row "><!-- Secciones -->
+            <div class="secc1 col-lg-4"><!-- Sec1 -->
+                <section class = "prueba">
+                    <div class="subt .col-md-5"><!-- Titulo Sec1 -->
+                        Chicken
+                    </div>
+                    <p class="info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quam neque doloribus 
+                        quo maxime earum officiis vel sint. Doloribus minima enim adipisci quod deserunt aspernatur? 
+                        Et illum quas sapiente! Molestias Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quam neque doloribus.
+                    </p>
+                </section>
             </div>
-            <div><!-- Sec2 -->
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam, 
-                    inventore nobis provident magnam, deleniti quisquam excepturi non dolorem assumenda 
-                    vitae nesciunt nostrum eaque consectetur doloremque libero dignissimos esse aliquid. 
-                </p>
+            <div class="secc2 col-lg-4 "><!-- Sec2 -->
+                <section class = "prueba">
+                    <p class="subt"><!-- Titulo Sec2 -->
+                        Beef
+                    </p>
+                    <p class="info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quam neque doloribus 
+                        quo maxime earum officiis vel sint. Doloribus minima enim adipisci quod deserunt aspernatur? 
+                        Et illum quas sapiente! Molestias Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quam neque doloribus.
+                    </p>
+                </section>
             </div>
-            <div><!-- Sec3 -->
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eum laudantium quam 
-                    ad minus sequi dignissimos pariatur, reprehenderit dolorum sed odit possimus voluptatum 
-                    similique quis enim nulla delectus facere quaerat?
-                </p>
+            <div class="secc3 col-lg-4 "><!-- Sec3 -->
+                <section class = "prueba">
+                    <p class="subt"><!-- Titulo Sec3 -->
+                        Sushi
+                    </p>
+                    <p class="info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quam neque doloribus 
+                        quo maxime earum officiis vel sint. Doloribus minima enim adipisci quod deserunt aspernatur? 
+                        Et illum quas sapiente! Molestias Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quam neque doloribus.
+                    </p>
+                </section>
             </div>
+            
         </div>
-
+       
     </div>
 </body>
 
