@@ -3,7 +3,7 @@
 }
 
 body{
-   font-size: 16px;
+    font-family: sans-serif;
 }
 
 .row {
@@ -48,22 +48,15 @@ p{
 /* Ajustes */
 
 .tot{
-    /* background-color: antiquewhite; */
     position: relative;
 }
 
 .tit{
-    /* background-color: chocolate; */
     text-align: center;
     margin-top: 6%;
     margin-bottom: 4%;
+    font-size: 175%;
 }
-
-.secc{
-    /* background-color: blue;  */
-    /* margin-bottom: 4%; */
-}
-
 .secc1{
     /* background-color: blueviolet;  */
     padding: 0% 1% 3% 1%;
@@ -80,20 +73,29 @@ p{
 }
 
 .subt {
-    background-color:chocolate;
     float: right; 
     margin: 0%;
     margin-bottom: 2%;
     border: 1px solid black;
     padding: 0.5% 4% 0.5% 4%;
+    font-size: 125%;
+
 }  
+
+.secc1 .subt{
+    background-color:lightblue;
+}
+.secc2 .subt{
+    background-color:darkcyan;
+}
+.secc3 .subt{
+    background-color:chocolate;
+}
 .cont{
     background-color:dimgray;
-    /* margin: 0% 2% 3% 2% ; */
     border: 1px solid black;
 }
 .info{
     clear: right; 
     position: relative;
-   
 }
