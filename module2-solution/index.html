@@ -1,107 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Samuel David Melgarejo modulo2</title>
-
-<style>
-*{
-    box-sizing: border-box;
-}
-
-body{
-   font-size: 16px;
-}
-
-.row {
-    width: 100%;
-
-}
-
-p{
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-/* RESPONSIVE LARGE DEVICES */
-
-@media (min-width: 992px){  
-    .col-lg-4 , .col-lg-12{
-        float: left;
-    }
-    .col-lg-4{
-        width: 33%;
-    }
-    .col-lg-12{
-        width: 100%;
-    }
-}
-
-/* RESPONSIVE MEDIUM DEVICES */
-
-@media (min-width: 768px) and (max-width:991px) {  
-    .col-md-5 , .col-md-12{
-        float: left;
-      
-    }
-    .col-md-5{
-        width: 41.66%;
-    }
-    .col-md-12{
-        width: 100%;
-    }
-}
-
-.tot{
-    /* background-color: antiquewhite; */
-    position: relative;
-}
-
-.tit{
-    /* background-color: chocolate; */
-    text-align: center;
-    margin-top: 6%;
-    margin-bottom: 4%;
-}
-
-.secc{
-    /* background-color: blue; */
-    position: relative;
-}
-
-.secc1{
-    /* background-color: blueviolet; */
-    position: relative;
-}
-
-.secc2{
-    /* background-color: crimson; */
-}
-
-.secc3{
-    /* background-color: darkgoldenrod; */
-}
-
-.subt {
-    background-color:chocolate;
-    float: right; 
-    margin: 0%;
-    margin-bottom: 2%;
-    border: 1px solid black;
-    padding: 0.5% 4% 0.5% 4%;
-}  
-.prueba{
-    background-color:dimgray;
-    margin: 0% 2% 0% 2% ;
-    border: 1px solid black;
-}
-.info{
-    clear: right; 
-    position: relative;
-   
-}
-
-
-</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samuel David Melgarejo modulo2</title>
+<link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
@@ -114,8 +17,8 @@ p{
         </div>
 
         <div class="secc row "><!-- Secciones -->
-            <div class="secc1 col-lg-4"><!-- Sec1 -->
-                <section class = "prueba">
+            <div class="secc1 col-lg-4 col-md-6"><!-- Sec1 -->
+                <section class = "cont">
                     <div class="subt .col-md-5"><!-- Titulo Sec1 -->
                         Chicken
                     </div>
@@ -125,8 +28,8 @@ p{
                     </p>
                 </section>
             </div>
-            <div class="secc2 col-lg-4 "><!-- Sec2 -->
-                <section class = "prueba">
+            <div class="secc2 col-lg-4 col-md-6"><!-- Sec2 -->
+                <section class = "cont">
                     <p class="subt"><!-- Titulo Sec2 -->
                         Beef
                     </p>
@@ -136,8 +39,8 @@ p{
                     </p>
                 </section>
             </div>
-            <div class="secc3 col-lg-4 "><!-- Sec3 -->
-                <section class = "prueba">
+            <div class="secc3 col-lg-4 col-md-12"><!-- Sec3 -->
+                <section class = "cont">
                     <p class="subt"><!-- Titulo Sec3 -->
                         Sushi
                     </p>
